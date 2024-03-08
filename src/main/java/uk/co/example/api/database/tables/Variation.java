@@ -1,4 +1,4 @@
-package uk.co.pavers.api.database.tables;
+package uk.co.example.api.database.tables;
 
 import java.util.Set;
 

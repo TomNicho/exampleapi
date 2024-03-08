@@ -4,7 +4,7 @@ plugins {
 	id 'java'
 }
 
-group = 'uk.co.pavers'
+group = 'uk.co.tnix'
 version = '1.0.0'
 sourceCompatibility = '11'
 

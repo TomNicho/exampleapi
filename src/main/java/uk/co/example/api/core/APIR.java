@@ -1,4 +1,4 @@
-package uk.co.pavers.api.core;
+package uk.co.example.api.core;
 
 public class APIR {
     public boolean success;

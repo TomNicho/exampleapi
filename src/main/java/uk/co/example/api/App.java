@@ -1,11 +1,11 @@
-package uk.co.pavers.api;
+package uk.co.example.api;
 
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
 
-import uk.co.pavers.api.database.tables.*;
+import uk.co.example.api.database.tables.*;
 
 @SpringBootApplication
 public class App {
@@ -14,7 +14,7 @@ public class App {
 	}
 
 	@Bean
-	public CommandLineRunner testGenerator(Data data) {
+	CommandLineRunner testGenerator(Data data) {
 		return (args) -> {
 			Product product = new Product();
 			product.setName("Shoe");

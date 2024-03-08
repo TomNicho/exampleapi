@@ -1,4 +1,4 @@
-package uk.co.pavers.api.controller;
+package uk.co.example.api.controller;
 
 import java.util.Optional;
 
@@ -12,9 +12,9 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.RestController;
 
-import uk.co.pavers.api.Data;
-import uk.co.pavers.api.core.APIR;
-import uk.co.pavers.api.database.tables.*;
+import uk.co.example.api.Data;
+import uk.co.example.api.core.APIR;
+import uk.co.example.api.database.tables.*;
 
 @RestController
 public class APIController {
