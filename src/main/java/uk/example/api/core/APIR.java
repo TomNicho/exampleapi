@@ -1,4 +1,4 @@
-package uk.co.example.api.core;
+package uk.example.api.core;
 
 public class APIR {
     public boolean success;

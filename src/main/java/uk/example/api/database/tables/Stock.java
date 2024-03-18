@@ -1,4 +1,4 @@
-package uk.co.example.api.database.tables;
+package uk.example.api.database.tables;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;

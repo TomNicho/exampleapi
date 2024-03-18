@@ -1,9 +1,9 @@
-package uk.co.example.api;
+package uk.example.api;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
-import uk.co.example.api.database.repos.*;
+import uk.example.api.database.repos.*;
 
 @Component
 public class Data {
